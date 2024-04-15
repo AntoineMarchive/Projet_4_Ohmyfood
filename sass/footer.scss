@@ -1,0 +1,40 @@
+.footer {
+    background-color: #353535;
+    color: white;
+    padding:  22px 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    &__logo {
+        margin-bottom: 16px;
+        font-size: 27px
+    }
+
+    &__bloc {
+        flex-direction: column;
+        gap : 7px
+    }
+
+    &__nav {
+        display: flex;
+        gap: 11px;
+        align-items: center;
+        font-weight: 500;
+        & i {
+            width: 11px;
+            height: 13px;
+        }
+        &--info {
+
+        }
+    }
+
+    
+
+p{
+   margin: 5px 0; 
+}
+
+}
