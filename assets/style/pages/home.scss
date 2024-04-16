@@ -1,3 +1,12 @@
+@import '../utils/variables';
+@import '../utils/normalize';
+
+@import '../layout/header';
+@import '../layout/footer';
+
+@import '../components/main-btn';
+
+
 .explore {
     background-color: #F6F6F6;
     display: block;

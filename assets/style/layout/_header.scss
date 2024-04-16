@@ -1,0 +1,15 @@
+.header {
+    color: black;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &__logo {
+        width: 200px;
+        height: auto;
+    }
+    &__Location {
+        display: flex;
+        gap: 17px;
+    }
+}
