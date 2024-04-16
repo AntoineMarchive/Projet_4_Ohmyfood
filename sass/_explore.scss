@@ -1,0 +1,19 @@
+.explore {
+    background-color: #F6F6F6;
+    display: block;
+    text-align: center;
+    padding: 16px;
+    &__title {
+        display: flex;
+        align-items: center;
+        width: 70%;
+        margin: 10px 0;
+        font-size: 26px;
+    }
+    & h2 {
+        font-size: 36px;
+    }
+    & P {
+        font-size: 18px;
+    }
+}
