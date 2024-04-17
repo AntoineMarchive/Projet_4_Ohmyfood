@@ -9,7 +9,11 @@
         height: auto;
     }
     &__Location {
+        background: $third-backgroundcolor;
         display: flex;
         gap: 17px;
+        & .input {
+            border: none;
+        }
     }
 }
