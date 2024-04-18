@@ -1,15 +1,9 @@
 .restaurants__cards {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 100px;
-    grid-row-gap: 28px;
     &-container {
         box-sizing: border-box;
         display: flex;
+        flex: 1;
         flex-direction: column;
-        width: auto;
-        height: 100%;
         & img {
             object-fit: cover;
             width: 100%;
@@ -17,6 +11,22 @@
             border-top-left-radius: 20px;
             border-top-right-radius: 20px;
             padding-bottom: 4px;
+        }
+        &-content {
+            box-sizing: borderbox;
+            background-color: white;
+            border-bottom-left-radius: 25px;
+            border-bottom-right-radius: 25px;
+            &-text {
+                & h2 {
+                    font-size: 18px;
+                    margin: 0;
+                }
+                & p {
+                    font-size: 17px;
+                    margin: 0;
+                }
+            }
         }
     }
 }
