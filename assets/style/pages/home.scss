@@ -9,6 +9,13 @@
 
 @import '../components/restaurants';
 
+.main-container {
+    width: 100%;
+    max-width: 425px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 input {
     border: none;
 }
@@ -43,9 +50,10 @@ input {
         margin: 0;
     }
     &__btn-container {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-column-gap: 25px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
 }
 
