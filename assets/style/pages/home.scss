@@ -47,6 +47,17 @@
         align-items: center;
         text-align: center;
         gap: 20px;
+        &__number{
+            margin: 0;
+            color: white;
+            font-size: 14px;
+            border: solid;
+            border-color: $main-color;
+            background-color: $main-color;
+            border-radius: 25px;
+            width: 15px;
+            height: 15px;
+        }
     }
 }
 
