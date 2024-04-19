@@ -4,29 +4,33 @@
     padding:  22px 25px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
+    gap: 16px;
     &__logo {
-        margin-bottom: 16px;
-        font-size: 27px
+        margin: 0;
+        font-size: 27px;
         font-family: "Shrikhand", serif;
     }
     &__bloc {
-        flex-direction: column;
-        gap : 7px
-    }
-    &__nav {
         display: flex;
+        flex-direction: column;
+        gap : 7px;
+        &__nav {
+        display: flex;
+        flex-direction: row;
         gap: 11px;
         align-items: center;
         font-weight: 500;
         & i {
             width: 11px;
             height: 13px;
-        }
-    }  
+            }
+        }  
+    }
 
-p{
-   margin: 5px 0; 
-}
+
+    p{
+        margin: 5px 0; 
+    }
 
 }
