@@ -39,27 +39,31 @@ input {
   color: black;
   display: flex;
   flex-direction: column;
+}
+.header__firstcontainer {
+  display: flex;
   justify-content: center;
   align-items: center;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
 }
-.header__logo {
+.header__firstcontainer__logo {
   display: flex;
   justify-content: center;
   height: auto;
   font-family: "Shrikhand", serif;
-  margin: 0;
-  padding: 14px 89px;
+  margin: 14px 0;
 }
 .header__container {
-  display: flex;
   width: 100%;
   background-color: #EAEAEA;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 17px;
   height: 50px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.header__container__Location {
+  gap: 17px;
 }
 .header__container__Location i {
   width: 12px;
