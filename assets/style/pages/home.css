@@ -7,6 +7,10 @@ a {
   color: inherit;
 }
 
+h2 {
+  font-size: 24px;
+}
+
 .shrikhand-regular {
   font-family: "Shrikhand", serif;
   font-weight: 400;
@@ -28,6 +32,7 @@ body {
 
 input {
   border: none;
+  background: transparent;
 }
 
 .header {
@@ -38,25 +43,29 @@ input {
   align-items: center;
 }
 .header__logo {
-  width: 200px;
+  display: flex;
+  justify-content: center;
   height: auto;
   font-family: "Shrikhand", serif;
   margin: 0;
+  padding: 14px 89px;
 }
-.header__Location {
-  background: #EAEAEA;
+.header__container {
+  display: flex;
+  width: 100%;
+  background-color: #EAEAEA;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 17px;
-  width: 375px;
   height: 50px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
-.header__Location i {
+.header__container__Location i {
   width: 12px;
   height: 16px;
 }
-.header__Location input {
+.header__container__Location input {
   font-size: 16px;
 }
 
@@ -165,10 +174,12 @@ input {
 }
 .restaurants__cards__container-content-text h3 {
   font-size: 18px;
+  font-weight: 700;
   margin: 0;
 }
 .restaurants__cards__container-content-text p {
   font-size: 17px;
+  font-weight: 300;
   margin: 0;
 }
 .restaurants__cards__container-content-heart-btn {
@@ -186,10 +197,12 @@ input {
   font-size: 26px;
 }
 .explore h2 {
-  font-size: 36px;
+  font-size: 24px;
+  font-weight: 700;
 }
 .explore P {
   font-size: 18px;
+  font-weight: 300;
 }
 
 .function {
@@ -212,6 +225,17 @@ input {
   align-items: center;
   text-align: center;
   gap: 20px;
+}
+.function__btn-container__number {
+  margin: 0;
+  color: white;
+  font-size: 14px;
+  border: solid;
+  border-color: #9356DC;
+  background-color: #9356DC;
+  border-radius: 25px;
+  width: 15px;
+  height: 15px;
 }
 
 .restaurants {
