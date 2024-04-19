@@ -126,6 +126,20 @@ input {
   gap: 4%;
   box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
 }
+.second_btn .function__btn-container__number {
+  z-index: index;
+  position: absolute;
+  left: 8px;
+  margin: 0;
+  color: white;
+  font-size: 14px;
+  border: solid;
+  border-color: #9356DC;
+  background-color: #9356DC;
+  border-radius: 25px;
+  width: 15px;
+  height: 15px;
+}
 .second_btn i {
   width: 13px;
   height: auto;
@@ -225,17 +239,6 @@ input {
   align-items: center;
   text-align: center;
   gap: 20px;
-}
-.function__btn-container__number {
-  margin: 0;
-  color: white;
-  font-size: 14px;
-  border: solid;
-  border-color: #9356DC;
-  background-color: #9356DC;
-  border-radius: 25px;
-  width: 15px;
-  height: 15px;
 }
 
 .restaurants {
