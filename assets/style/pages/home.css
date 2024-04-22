@@ -123,6 +123,7 @@ input {
   display: flex;
   width: 100%;
   border: none;
+  justify-content: center;
   align-items: center;
   border-radius: 25px;
   height: 72px;
@@ -151,6 +152,11 @@ input {
 }
 .second_btn p {
   font-size: 16px;
+}
+
+.restaurants__cards__container-content-heart-btn i {
+  width: 22px;
+  height: 21px;
 }
 
 .restaurants {
@@ -186,6 +192,7 @@ input {
   justify-content: space-between;
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
+  padding: 12px;
 }
 .restaurants__cards__container-content-text {
   padding: 13px 12px;
