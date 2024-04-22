@@ -165,6 +165,31 @@ input {
   font-size: 16px;
 }
 
+.page__restaurant__menu--card-btn {
+  border-radius: 25px;
+  border: none;
+  padding: 15px;
+  box-shadow: 0px 4.011px 15.043px 0px rgba(0, 0, 0, 0.1);
+  background: white;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.page__restaurant__menu--card-btn h4 {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0;
+}
+.page__restaurant__menu--card-btn__price {
+  display: flex;
+  justify-content: space-between;
+}
+.page__restaurant__menu--card-btn__price p {
+  font-size: 15px;
+  font-weight: 300;
+  margin: 0;
+}
+
 .heart-btn i {
   width: 22px;
   height: 21px;
