@@ -11,18 +11,30 @@
 .page__restaurant {
   box-sizing: border-box;
   display: flex;
-  flex: 1;
   flex-direction: column;
   width: 100%;
   &--img {
     box-sizing: border-box;
-    display: flex;
-    flex: 1;
-    flex-direction: column;
     & img {
       object-fit: cover;
       width: 100%;
-      height: auto;
+    }
+  }
+  &__menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: $main-backgroundcolor;
+    gap: 40px;
+    &__title-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        & h2 {
+            font-family: "Shrikhand", serif;
+            font-size: 28px;
+            font-weight: 400;
+        }
     }
   }
 }

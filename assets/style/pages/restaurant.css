@@ -165,7 +165,7 @@ input {
   font-size: 16px;
 }
 
-.restaurants__cards__container-content-heart-btn i {
+.heart-btn i {
   width: 22px;
   height: 21px;
 }
@@ -173,19 +173,31 @@ input {
 .page__restaurant {
   box-sizing: border-box;
   display: flex;
-  flex: 1;
   flex-direction: column;
   width: 100%;
 }
 .page__restaurant--img {
   box-sizing: border-box;
-  display: flex;
-  flex: 1;
-  flex-direction: column;
 }
 .page__restaurant--img img {
   -o-object-fit: cover;
      object-fit: cover;
   width: 100%;
-  height: auto;
+}
+.page__restaurant__menu {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #F6F6F6;
+  gap: 40px;
+}
+.page__restaurant__menu__title-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.page__restaurant__menu__title-container h2 {
+  font-family: "Shrikhand", serif;
+  font-size: 28px;
+  font-weight: 400;
 }/*# sourceMappingURL=restaurant.css.map */
