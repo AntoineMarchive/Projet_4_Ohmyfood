@@ -44,8 +44,18 @@ input {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 42px;
   box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
+}
+.header__firstcontainer__return {
+  z-index: index;
+  position: absolute;
+  left: 17px;
+  width: 30px;
+  height: 30px;
+}
+.header__firstcontainer__return i {
+  width: 60px;
+  height: 60px;
 }
 .header__firstcontainer__logo {
   display: flex;
@@ -158,4 +168,24 @@ input {
 .restaurants__cards__container-content-heart-btn i {
   width: 22px;
   height: 21px;
+}
+
+.page__restaurant {
+  box-sizing: border-box;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  width: 100%;
+}
+.page__restaurant--img {
+  box-sizing: border-box;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+.page__restaurant--img img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: auto;
 }/*# sourceMappingURL=restaurant.css.map */

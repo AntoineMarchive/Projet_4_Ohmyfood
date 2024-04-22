@@ -1,10 +1,28 @@
-@import '../utils/variables';
-@import '../utils/normalize';
+@import "../utils/variables";
+@import "../utils/normalize";
 
-@import '../layout/header';
-@import '../layout/footer';
+@import "../layout/header";
+@import "../layout/footer";
 
-@import '../components/main-btn';
-@import '../components/second-btn';
-@import '../components/heart-btn';
+@import "../components/main-btn";
+@import "../components/second-btn";
+@import "../components/heart-btn";
 
+.page__restaurant {
+  box-sizing: border-box;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  width: 100%;
+  &--img {
+    box-sizing: border-box;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    & img {
+      object-fit: cover;
+      width: 100%;
+      height: auto;
+    }
+  }
+}
