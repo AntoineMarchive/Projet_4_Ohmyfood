@@ -165,7 +165,13 @@ input {
   font-size: 16px;
 }
 
+.heart-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .heart-btn i {
+  padding: 0;
   width: 22px;
   height: 21px;
 }
@@ -218,7 +224,7 @@ input {
   font-weight: 300;
   margin: 0;
 }
-.restaurants__cards__container-content-heart-btn {
+.restaurants__cards__container-content__heart-btn {
   padding: 15px 25px;
 }
 

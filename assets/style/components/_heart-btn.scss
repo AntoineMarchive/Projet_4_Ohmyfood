@@ -1,6 +1,10 @@
 .heart-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     & i {
-    width: 22px;
-    height: 21px;
+        padding: 0;
+        width: 22px;
+        height: 21px;
     }
 }
