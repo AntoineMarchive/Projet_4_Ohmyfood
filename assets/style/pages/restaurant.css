@@ -54,8 +54,7 @@ input {
   height: 30px;
 }
 .header__firstcontainer__return i {
-  width: 60px;
-  height: 60px;
+  font-size: 30px;
 }
 .header__firstcontainer__logo {
   display: flex;
