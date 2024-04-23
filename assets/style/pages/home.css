@@ -129,7 +129,7 @@ input {
   background: linear-gradient(#FF79DA, #9356DC);
 }
 
-.second_btn {
+.function-btn {
   background: #F6F6F6;
   display: flex;
   width: 100%;
@@ -142,7 +142,7 @@ input {
   gap: 4%;
   box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
 }
-.second_btn .function__btn-container__number {
+.function-btn .function__btn-container__number {
   z-index: index;
   position: absolute;
   left: 8px;
@@ -156,24 +156,26 @@ input {
   width: 15px;
   height: 15px;
 }
-.second_btn i {
+.function-btn i {
   width: 13px;
   height: auto;
   padding: 0;
 }
-.second_btn p {
+.function-btn p {
   font-size: 16px;
 }
 
+/******* changement en function_btn********/
 .heart-btn {
   display: flex;
   justify-content: center;
   align-items: center;
+  border: none;
+  background: transparent;
 }
 .heart-btn i {
   padding: 0;
-  width: 22px;
-  height: 21px;
+  font-size: 22px;
 }
 
 .restaurants {
@@ -188,8 +190,10 @@ input {
   flex-direction: column;
   gap: 18px;
   width: 100%;
+  /******de 1 a 13 metre dans le home.scss*****/
 }
 .restaurants__cards__container {
+  position: relative;
   box-sizing: border-box;
   display: flex;
   flex: 1;
@@ -202,6 +206,20 @@ input {
   height: auto;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
+}
+.restaurants__cards__container-info {
+  z-index: index;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #99E2D0;
+  box-sizing: border-box;
+  border-radius: 2px;
+  height: 29px;
+  border: none;
 }
 .restaurants__cards__container-content {
   background-color: white;
@@ -224,7 +242,7 @@ input {
   font-weight: 300;
   margin: 0;
 }
-.restaurants__cards__container-content__heart-btn {
+.restaurants__cards__container-content-heart-btn {
   padding: 15px 25px;
 }
 
