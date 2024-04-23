@@ -24,7 +24,6 @@
   &__menu {
     display: flex;
     flex-direction: column;
-    width: 100%;
     background-color: $main-backgroundcolor;
     gap: 40px;
     &__title-container {
@@ -36,6 +35,12 @@
             font-size: 28px;
             font-weight: 400;
         }
+    }
+    &-btn {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
     }
   }
 }

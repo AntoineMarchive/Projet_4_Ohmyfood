@@ -212,7 +212,6 @@ input {
 .page__restaurant__menu {
   display: flex;
   flex-direction: column;
-  width: 100%;
   background-color: #F6F6F6;
   gap: 40px;
 }
@@ -225,4 +224,9 @@ input {
   font-family: "Shrikhand", serif;
   font-size: 28px;
   font-weight: 400;
+}
+.page__restaurant__menu-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }/*# sourceMappingURL=restaurant.css.map */
