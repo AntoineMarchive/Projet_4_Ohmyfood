@@ -2,9 +2,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border: none;
+    background: transparent;
     & i {
         padding: 0;
-        width: 22px;
-        height: 21px;
+        font-size: 22px;
     }
 }
