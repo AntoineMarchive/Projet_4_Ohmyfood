@@ -5,8 +5,8 @@
 @import "../layout/footer";
 
 @import "../components/main-btn";
-@import "../components/second-btn";
-@import "../components/third-btn";
+@import "../components/function-btn";
+@import "../components/dishes-btn";
 @import "../components/heart-btn";
 
 .page__restaurant {
@@ -22,6 +22,9 @@
     }
   }
   &__menu {
+    transform: translateY(-25px);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
     display: flex;
     flex-direction: column;
     background-color: $main-backgroundcolor;

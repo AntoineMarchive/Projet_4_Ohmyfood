@@ -10,7 +10,11 @@
     flex-direction: column;
     gap: 18px;
     width: 100%;
+
+    /******de 1 a 13 metre dans le home.scss*****/
+    
     &__container {
+      position: relative;
       box-sizing: border-box;
       display: flex;
       flex: 1;
@@ -21,6 +25,20 @@
         height: auto;
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
+      }
+      &-info {
+        z-index: index;
+        position:absolute;
+        right: 10px;
+        top:10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $third-color;
+        box-sizing: border-box;
+        border-radius: 2px;
+        height: 29px;
+        border:none
       }
       &-content {
         background-color: white;

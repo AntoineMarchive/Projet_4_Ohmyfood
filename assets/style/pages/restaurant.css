@@ -129,7 +129,7 @@ input {
   background: linear-gradient(#FF79DA, #9356DC);
 }
 
-.second_btn {
+.function-btn {
   background: #F6F6F6;
   display: flex;
   width: 100%;
@@ -142,7 +142,7 @@ input {
   gap: 4%;
   box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
 }
-.second_btn .function__btn-container__number {
+.function-btn .function__btn-container__number {
   z-index: index;
   position: absolute;
   left: 8px;
@@ -156,16 +156,17 @@ input {
   width: 15px;
   height: 15px;
 }
-.second_btn i {
+.function-btn i {
   width: 13px;
   height: auto;
   padding: 0;
 }
-.second_btn p {
+.function-btn p {
   font-size: 16px;
 }
 
-.page__restaurant__menu--card-btn {
+/******* changement en function_btn********/
+.page__restaurant__menu__dishes-btn {
   border-radius: 25px;
   border: none;
   padding: 15px;
@@ -175,24 +176,32 @@ input {
   flex-direction: column;
   gap: 5px;
 }
-.page__restaurant__menu--card-btn h4 {
+.page__restaurant__menu__dishes-btn h4 {
   font-size: 18px;
   font-weight: 500;
   margin: 0;
 }
-.page__restaurant__menu--card-btn__price {
+.page__restaurant__menu__dishes-btn__price {
   display: flex;
   justify-content: space-between;
 }
-.page__restaurant__menu--card-btn__price p {
+.page__restaurant__menu__dishes-btn__price p {
   font-size: 15px;
   font-weight: 300;
   margin: 0;
 }
 
+/*********changemenent en dishes-btn********/
+.heart-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background: transparent;
+}
 .heart-btn i {
-  width: 22px;
-  height: 21px;
+  padding: 0;
+  font-size: 22px;
 }
 
 .page__restaurant {
@@ -210,6 +219,9 @@ input {
   width: 100%;
 }
 .page__restaurant__menu {
+  transform: translateY(-25px);
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
   display: flex;
   flex-direction: column;
   background-color: #F6F6F6;
