@@ -9,6 +9,8 @@ a {
 
 h2 {
   font-size: 24px;
+  padding: 0;
+  margin: 0;
 }
 
 .shrikhand-regular {
@@ -76,11 +78,11 @@ input {
   gap: 17px;
 }
 .header__container__Location i {
-  width: 12px;
-  height: 16px;
+  font-size: 12px;
+  font-weight: 500;
 }
 .header__container__Location input {
-  font-size: 16px;
+  font-size: 16x;
 }
 
 .footer {
