@@ -9,6 +9,8 @@ a {
 
 h2 {
   font-size: 24px;
+  padding: 0;
+  margin: 0;
 }
 
 .shrikhand-regular {
@@ -76,11 +78,11 @@ input {
   gap: 17px;
 }
 .header__container__Location i {
-  width: 12px;
-  height: 16px;
+  font-size: 12px;
+  font-weight: 500;
 }
 .header__container__Location input {
-  font-size: 16px;
+  font-size: 16x;
 }
 
 .footer {
@@ -177,20 +179,6 @@ input {
   font-size: 22px;
 }
 
-.restaurants {
-  width: auto;
-}
-.restaurants__title {
-  font-size: 24px;
-  margin: 0;
-}
-.restaurants__cards {
-  display: flex;
-  flex-direction: column;
-  gap: 18px;
-  width: 100%;
-  /******de 1 a 13 metre dans le home.scss*****/
-}
 .restaurants__cards__container {
   position: relative;
   box-sizing: border-box;
@@ -207,10 +195,11 @@ input {
   border-top-right-radius: 20px;
 }
 .restaurants__cards__container-info {
-  z-index: index;
+  padding: 6px 9px;
   position: absolute;
   right: 10px;
   top: 10px;
+  padding: 7px 9px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -246,7 +235,7 @@ input {
 }
 
 .explore {
-  background-color: #F6F6F6;
+  background-color: #f6f6f6;
   display: block;
   text-align: center;
   padding: 16px;
@@ -275,7 +264,6 @@ input {
   display: flex;
   align-items: center;
   font-size: 24px;
-  padding: 0 0 0 20px;
   margin: 0;
 }
 .function__btn-container {
@@ -292,4 +280,15 @@ input {
   flex-direction: column;
   padding: 48px 18px;
   gap: 18px;
+  width: auto;
+}
+.restaurants__title {
+  font-size: 24px;
+  margin: 0;
+}
+.restaurants__cards {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  width: 100%;
 }/*# sourceMappingURL=home.css.map */
