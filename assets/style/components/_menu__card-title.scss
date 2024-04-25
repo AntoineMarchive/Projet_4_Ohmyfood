@@ -1,6 +1,10 @@
 .page__restaurant__menu__card__title {
+    box-sizing: border-box;
+    border-bottom: solid 3px $third-color;
+    width: 40px;
     & h3 {
-    font-size: 30px;
+    font-size: 16px;
     font-weight: 300;
+    margin-bottom: 5px;
     }
 }

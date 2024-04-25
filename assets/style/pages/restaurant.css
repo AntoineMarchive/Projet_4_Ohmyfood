@@ -204,9 +204,15 @@ input {
 }
 
 /*********changemenent en dishes-btn********/
+.page__restaurant__menu__card__title {
+  box-sizing: border-box;
+  border-bottom: solid 3px #99E2D0;
+  width: 40px;
+}
 .page__restaurant__menu__card__title h3 {
-  font-size: 30px;
+  font-size: 16px;
   font-weight: 300;
+  margin-bottom: 5px;
 }
 
 .heart-btn {
@@ -260,6 +266,7 @@ input {
 .page__restaurant__menu__card {
   display: flex;
   flex-direction: column;
+  gap: 12px;
 }
 .page__restaurant__menu__btn {
   display: flex;
