@@ -7,6 +7,7 @@
 @import "../components/main-btn";
 @import "../components/function-btn";
 @import "../components/dishes-btn";
+@import "../components/menu__card-title";
 @import "../components/heart-btn";
 
 .page__restaurant {
@@ -36,15 +37,18 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding: 0
-         ;
+        padding: 0;
         & h2 {
             font-family: "Shrikhand", serif;
             font-size: 28px;
             font-weight: 400;
         }
     }
-    &-btn {
+    &__card {
+      display: flex;
+      flex-direction: column;
+    }
+    &__btn {
       display: flex;
       justify-content: center;
       align-items: center;

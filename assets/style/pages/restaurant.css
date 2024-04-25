@@ -166,7 +166,7 @@ input {
 }
 
 /******* changement en function_btn********/
-.page__restaurant__menu__dishes-btn {
+.page__restaurant__menu__card__dishes-btn {
   border-radius: 25px;
   border: none;
   padding: 15px;
@@ -175,35 +175,40 @@ input {
   display: flex;
   justify-content: space-between;
 }
-.page__restaurant__menu__dishes-btn__title {
+.page__restaurant__menu__card__dishes-btn__title {
   display: flex;
   flex-direction: column;
   gap: 5px;
 }
-.page__restaurant__menu__dishes-btn__title h4 {
+.page__restaurant__menu__card__dishes-btn__title h4 {
   font-size: 18px;
   font-weight: 500;
   margin: 0;
 }
-.page__restaurant__menu__dishes-btn__title p {
+.page__restaurant__menu__card__dishes-btn__title p {
   margin: 0;
 }
-.page__restaurant__menu__dishes-btn__price {
+.page__restaurant__menu__card__dishes-btn__price {
   display: flex;
   flex: 1;
   justify-content: flex-end;
   align-items: flex-end;
 }
-.page__restaurant__menu__dishes-btn__price p {
+.page__restaurant__menu__card__dishes-btn__price p {
   font-size: 15px;
   font-weight: 300;
   margin: 0;
 }
-.page__restaurant__menu__dishes-btn__check {
+.page__restaurant__menu__card__dishes-btn__check {
   display: none;
 }
 
 /*********changemenent en dishes-btn********/
+.page__restaurant__menu__card__title h3 {
+  font-size: 30px;
+  font-weight: 300;
+}
+
 .heart-btn {
   display: flex;
   justify-content: center;
@@ -252,7 +257,11 @@ input {
   font-size: 28px;
   font-weight: 400;
 }
-.page__restaurant__menu-btn {
+.page__restaurant__menu__card {
+  display: flex;
+  flex-direction: column;
+}
+.page__restaurant__menu__btn {
   display: flex;
   justify-content: center;
   align-items: center;
