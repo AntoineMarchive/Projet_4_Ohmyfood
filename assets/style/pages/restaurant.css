@@ -173,22 +173,34 @@ input {
   box-shadow: 0px 4.011px 15.043px 0px rgba(0, 0, 0, 0.1);
   background: white;
   display: flex;
+  justify-content: space-between;
+}
+.page__restaurant__menu__dishes-btn__title {
+  display: flex;
   flex-direction: column;
   gap: 5px;
 }
-.page__restaurant__menu__dishes-btn h4 {
+.page__restaurant__menu__dishes-btn__title h4 {
   font-size: 18px;
   font-weight: 500;
   margin: 0;
 }
+.page__restaurant__menu__dishes-btn__title p {
+  margin: 0;
+}
 .page__restaurant__menu__dishes-btn__price {
   display: flex;
-  justify-content: space-between;
+  flex: 1;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
 .page__restaurant__menu__dishes-btn__price p {
   font-size: 15px;
   font-weight: 300;
   margin: 0;
+}
+.page__restaurant__menu__dishes-btn__check {
+  display: none;
 }
 
 /*********changemenent en dishes-btn********/
