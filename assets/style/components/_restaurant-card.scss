@@ -15,13 +15,14 @@
     &-info {
       padding: 6px 9px;
       position: absolute;
-      right: 10px;
-      top: 10px;
+      right: 20px;
+      top: 20px;
       padding: 7px 9px;
       display: flex;
       justify-content: center;
       align-items: center;
       background-color: $third-color;
+      color: $four-color;
       box-sizing: border-box;
       border-radius: 2px;
       height: 29px;
@@ -33,9 +34,12 @@
       justify-content: space-between;
       border-bottom-left-radius: 25px;
       border-bottom-right-radius: 25px;
-      padding: 12px;
+      padding: 20px 12px 12px 12px;
       &-text {
-        padding: 13px 12px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        padding: 0;
         & h3 {
           font-size: 18px;
           font-weight: 700;
@@ -47,8 +51,10 @@
           margin: 0;
         }
       }
-      &-heart-btn {
-        padding: 15px 25px;
+      &__heart-btn {
+        width: 22px;
+        height: 21px;
+        padding: 5px 25px;
       }
     }
   }

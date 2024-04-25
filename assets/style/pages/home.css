@@ -175,7 +175,7 @@ input {
 }
 .heart-btn i {
   padding: 0;
-  font-size: 22px;
+  font-size: 26px;
 }
 
 .restaurants__cards__container {
@@ -196,13 +196,14 @@ input {
 .restaurants__cards__container-info {
   padding: 6px 9px;
   position: absolute;
-  right: 10px;
-  top: 10px;
+  right: 20px;
+  top: 20px;
   padding: 7px 9px;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #99E2D0;
+  color: #008766;
   box-sizing: border-box;
   border-radius: 2px;
   height: 29px;
@@ -214,10 +215,13 @@ input {
   justify-content: space-between;
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
-  padding: 12px;
+  padding: 20px 12px 12px 12px;
 }
 .restaurants__cards__container-content-text {
-  padding: 13px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 0;
 }
 .restaurants__cards__container-content-text h3 {
   font-size: 18px;
@@ -229,8 +233,10 @@ input {
   font-weight: 300;
   margin: 0;
 }
-.restaurants__cards__container-content-heart-btn {
-  padding: 15px 25px;
+.restaurants__cards__container-content__heart-btn {
+  width: 22px;
+  height: 21px;
+  padding: 5px 25px;
 }
 
 .explore {
