@@ -34,7 +34,7 @@
   flex-direction: column;
   text-align: center;
   gap: 25px;
-  padding: 48px 18px;
+  padding: 48px 20px;
   &__title {
     display: flex;
     align-items: center;
@@ -47,6 +47,7 @@
     align-items: center;
     text-align: center;
     gap: 20px;
+    padding-left: 10px;
   }
 }
 

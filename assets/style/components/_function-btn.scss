@@ -3,7 +3,7 @@
     display: flex;
     width: 100%;
     border:none;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     border-radius: 25px;
     height: 72px;
@@ -13,7 +13,7 @@
     & .function__btn-container__number{
         z-index: index;
         position: absolute;
-        left: 8px;
+        left: 20px;
         margin: 0;
         color: white;
         font-size: 14px;
@@ -25,8 +25,7 @@
         height: 15px;
     }
     & i {
-        width: 13px;
-        height: auto;
+        font-size: 19px;
         padding: 0;
     }
     & p {
