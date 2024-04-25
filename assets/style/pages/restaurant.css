@@ -221,6 +221,7 @@ input {
   display: flex;
   flex-direction: column;
   width: 100%;
+  background-color: #F6F6F6;
 }
 .page__restaurant--img {
   box-sizing: border-box;
@@ -238,11 +239,13 @@ input {
   flex-direction: column;
   background-color: #F6F6F6;
   gap: 40px;
+  padding: 32px 17px;
 }
 .page__restaurant__menu__title-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 0;
 }
 .page__restaurant__menu__title-container h2 {
   font-family: "Shrikhand", serif;
