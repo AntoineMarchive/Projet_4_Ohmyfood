@@ -7,4 +7,9 @@
     padding: 13px 19px;
     box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
     background: linear-gradient($second-color,$main-color);
+
+    &:hover {
+        background: linear-gradient(0deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.15) 100%), linear-gradient(201deg, );
+        box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.35);
+    }
 }

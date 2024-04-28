@@ -119,6 +119,40 @@ input {
   margin: 5px 0;
 }
 
+.loader__effect {
+  border: 10px solid red;
+  border-top: red;
+  border-bottom: violet;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  animation: spin 3s linear infinite;
+  /*placement du loader au milieu de la page*/
+  margin: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.loader.hide {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.content.hide {
+  display: none;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 .main_btn {
   height: 50px;
   color: white;
@@ -128,6 +162,10 @@ input {
   padding: 13px 19px;
   box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
   background: linear-gradient(#FF79DA, #9356DC);
+}
+.main_btn:hover {
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.15) 100%), linear-gradient(201deg);
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.35);
 }
 
 .function-btn {
