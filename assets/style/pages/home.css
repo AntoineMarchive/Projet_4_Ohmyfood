@@ -219,7 +219,15 @@ input {
   font-size: 16px;
 }
 
-/******* changement en function_btn********/
+@media (min-width: 767.9px) {
+  .function-btn {
+    position: relative;
+  }
+  .function-btn .function__btn-container__number {
+    position: absolute;
+    left: -10px;
+  }
+}
 .heart-btn {
   display: flex;
   justify-content: center;
@@ -334,6 +342,17 @@ input {
   padding-left: 10px;
 }
 
+@media (min-width: 767.9px) {
+  .function {
+    padding: 50px 180px;
+    text-align: start;
+  }
+  .function__btn-container {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+  }
+}
 .restaurants {
   background-color: #F6F6F6;
   display: flex;
