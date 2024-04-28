@@ -1,0 +1,43 @@
+.loader {
+
+  &__effect {
+    border: 10px solid red;
+    border-top: red;
+    border-bottom: violet;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    -webkit-animation: spin 3s linear infinite;
+    -o-animation: spin 3s linear infinite;
+    animation: spin 3s linear infinite;
+    
+
+    /*placement du loader au milieu de la page*/
+
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  
+  }
+}
+
+.loader.hide {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.content.hide {
+  display: none;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
