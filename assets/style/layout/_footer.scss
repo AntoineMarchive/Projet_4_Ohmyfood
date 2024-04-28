@@ -28,9 +28,25 @@
         }  
     }
 
-
     p{
         margin: 5px 0; 
     }
 
+}
+@media (min-width: 767.9px) {
+
+    .footer {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    padding: 30px 25px;
+    align-items: center;
+    &__logo {
+        font-size: 16px;
+    }
+    &__bloc {
+        display: flex;
+        flex-direction: row;
+    }
+    }
 }

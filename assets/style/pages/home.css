@@ -119,6 +119,22 @@ input {
   margin: 5px 0;
 }
 
+@media (min-width: 767.9px) {
+  .footer {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    padding: 30px 25px;
+    align-items: center;
+  }
+  .footer__logo {
+    font-size: 16px;
+  }
+  .footer__bloc {
+    display: flex;
+    flex-direction: row;
+  }
+}
 .loader__effect {
   border: 10px solid red;
   border-top: red;
