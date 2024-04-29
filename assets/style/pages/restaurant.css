@@ -303,4 +303,21 @@ input {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media (min-width: 1023.9px) {
+  .page__restaurant {
+    background: white;
+  }
+  .page__restaurant__menu {
+    box-sizing: border-box;
+    justify-content: flex-start;
+    margin: 0 192px;
+    padding: 40px 210px;
+  }
+  .page__restaurant__menu__title-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
 }/*# sourceMappingURL=restaurant.css.map */
