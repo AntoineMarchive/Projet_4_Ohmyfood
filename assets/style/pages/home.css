@@ -143,7 +143,8 @@ input {
   background-color: white;
   opacity: 0.9;
   animation: disappear 0s 3s forwards;
-  display: grid;
+  display: flex;
+  justify-content: center;
   place-items: center;
 }
 .loader__text {
@@ -159,7 +160,7 @@ input {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 200px;
+  width: 100px;
   height: 100px;
   flex-wrap: wrap;
 }
@@ -244,6 +245,7 @@ input {
 .function-btn i {
   font-size: 19px;
   padding: 0;
+  color: #7E7E7E;
 }
 .function-btn p {
   font-size: 16px;
