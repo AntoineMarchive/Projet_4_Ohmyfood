@@ -7,6 +7,10 @@ a {
   color: inherit;
 }
 
+p {
+  margin: 0;
+}
+
 h2 {
   font-size: 24px;
   padding: 0;
@@ -21,7 +25,6 @@ h2 {
 
 .main-container {
   width: 100%;
-  max-width: 425px;
   padding: 0;
   box-sizing: border-box;
 }
@@ -119,6 +122,22 @@ input {
   margin: 5px 0;
 }
 
+@media (min-width: 1023.9px) {
+  .footer {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    padding: 30px 25px;
+    align-items: center;
+  }
+  .footer__logo {
+    font-size: 16px;
+  }
+  .footer__bloc {
+    display: flex;
+    flex-direction: row;
+  }
+}
 .main_btn {
   height: 50px;
   color: white;
@@ -169,7 +188,15 @@ input {
   font-size: 16px;
 }
 
-/******* changement en function_btn********/
+@media (min-width: 1023.9px) {
+  .function-btn {
+    position: relative;
+  }
+  .function-btn .function__btn-container__number {
+    position: absolute;
+    left: -10px;
+  }
+}
 .page__restaurant__menu__card__dishes-btn {
   border-radius: 25px;
   border: none;
