@@ -139,40 +139,65 @@ input {
   }
 }
 .loader {
-  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 1;
+  background-color: white;
+  opacity: 0.9;
+  animation: disappear 0s 3s forwards;
+  display: grid;
+  place-items: center;
 }
-.loader__effect {
-  border: 10px solid red;
-  border-top: red;
-  border-bottom: violet;
-  border-radius: 50%;
-  width: 100px;
+.loader__text {
+  width: 100%;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  color: black;
+}
+
+.loader-dots {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 200px;
   height: 100px;
-  animation: spin 3s linear infinite;
-  /*placement du loader au milieu de la page*/
-  margin: auto;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
+  flex-wrap: wrap;
+}
+.loader-dots .loader-dot {
+  width: 40%;
+  height: 40%;
+  margin: 0;
+  border-radius: 25px;
+  background-color: #FF79DA;
+  animation: three 1s infinite ease-in-out both;
+  animation-delay: 0ms;
+}
+.loader-dots .loader-dot__2 {
+  animation-delay: 150ms;
+}
+.loader-dots .loader-dot__3 {
+  animation-delay: 300ms;
+}
+.loader-dots .loader-dot__4 {
+  animation-delay: 450ms;
 }
 
-.loader.hide {
-  opacity: 0;
-  pointer-events: none;
-}
-
-.content.hide {
-  display: none;
-}
-
-@keyframes spin {
-  0% {
-    transform: rotate(0deg);
+@keyframes three {
+  0%, 80%, 100% {
+    transform: scale(0);
   }
-  100% {
-    transform: rotate(360deg);
+  40% {
+    transform: scale(1);
+  }
+}
+@keyframes disappear {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(0);
   }
 }
 .main_btn {
