@@ -12,9 +12,11 @@
 
 .explore {
   background-color: #f6f6f6;
-  display: block;
+  display: flex;
+  flex-direction: column;
   text-align: center;
   padding: 40px 16px 50px 16px;
+  gap: 30px;
   &__title {
     margin: 10px 0;
     font-size: 26px;
@@ -53,13 +55,12 @@
 @media (min-width: 1023.9px) {
   .function {
     padding: 50px 180px;
-   text-align: start;
+    text-align: start;
 
-   &__btn-container {
-    display: flex;
-    flex-direction: row;
-    flex: ;
-   }
+    &__btn-container {
+      display: flex;
+      flex-direction: row;
+    }
   }
 }
 
@@ -79,5 +80,17 @@
     flex-direction: column;
     gap: 18px;
     width: 100%;
+  }
+}
+@media (min-width: 1023.9px) {
+  .restaurants {
+    padding: 30px 180px;
+    &__cards {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      grid-column-gap: 100px;
+      grid-row-gap: 50px;
+    }
   }
 }

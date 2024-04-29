@@ -7,6 +7,10 @@ a {
   color: inherit;
 }
 
+p {
+  margin: 0;
+}
+
 h2 {
   font-size: 24px;
   padding: 0;
@@ -21,7 +25,6 @@ h2 {
 
 .main-container {
   width: 100%;
-  max-width: 425px;
   padding: 0;
   box-sizing: border-box;
 }
@@ -119,7 +122,7 @@ input {
   margin: 5px 0;
 }
 
-@media (min-width: 767.9px) {
+@media (min-width: 1023.9px) {
   .footer {
     display: flex;
     flex-direction: row-reverse;
@@ -134,6 +137,9 @@ input {
     display: flex;
     flex-direction: row;
   }
+}
+.loader {
+  display: none;
 }
 .loader__effect {
   border: 10px solid red;
@@ -219,7 +225,7 @@ input {
   font-size: 16px;
 }
 
-@media (min-width: 767.9px) {
+@media (min-width: 1023.9px) {
   .function-btn {
     position: relative;
   }
@@ -303,9 +309,11 @@ input {
 
 .explore {
   background-color: #f6f6f6;
-  display: block;
+  display: flex;
+  flex-direction: column;
   text-align: center;
   padding: 40px 16px 50px 16px;
+  gap: 30px;
 }
 .explore__title {
   margin: 10px 0;
@@ -342,7 +350,7 @@ input {
   padding-left: 10px;
 }
 
-@media (min-width: 767.9px) {
+@media (min-width: 1023.9px) {
   .function {
     padding: 50px 180px;
     text-align: start;
@@ -350,7 +358,6 @@ input {
   .function__btn-container {
     display: flex;
     flex-direction: row;
-    flex: 1;
   }
 }
 .restaurants {
@@ -370,4 +377,17 @@ input {
   flex-direction: column;
   gap: 18px;
   width: 100%;
+}
+
+@media (min-width: 1023.9px) {
+  .restaurants {
+    padding: 30px 180px;
+  }
+  .restaurants__cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 100px;
+    grid-row-gap: 50px;
+  }
 }/*# sourceMappingURL=home.css.map */
