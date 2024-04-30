@@ -37,6 +37,8 @@
 @media (min-width: 1023.9px) {
   .function-btn {
     position: relative;
+    display: flex;
+    flex: 1;
     .function__btn-container__number {
         position: absolute;
         left: -10px;
