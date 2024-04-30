@@ -1,52 +1,46 @@
 .footer {
-    background-color: #353535;
-    color: white;
-    padding:  22px 25px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+  background-color: #353535;
+  color: white;
+  padding: 22px 25px;
+  &__container {
+    @include wrapper;
+    @include flex (column, center, flex-start);
     gap: 16px;
     &__logo {
-        margin: 0;
-        font-size: 27px;
-        font-family: "Shrikhand", serif;
+      margin: 0;
+      font-size: 27px;
+      font-family: "Shrikhand", serif;
     }
     &__bloc {
-        display: flex;
-        flex-direction: column;
-        gap : 7px;
-        &__nav {
-        display: flex;
-        flex-direction: row;
+      display: flex;
+      flex-direction: column;
+      gap: 7px;
+      &__nav {
+        @include flex(row, center, center);
         gap: 11px;
-        align-items: center;
         font-weight: 500;
         & i {
-            width: 11px;
-            height: 13px;
-            }
-        }  
+          font-size: 11px;
+        }
+      }
     }
 
-    p{
-        margin: 5px 0; 
+    p {
+      margin: 5px 0;
     }
-
+  }
 }
 @media (min-width: 1023.9px) {
-
-    .footer {
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: flex-end;
-    padding: 30px 25px;
-    align-items: center;
-    &__logo {
+  .footer {
+    &__container {
+        @include flex(row-reverse, flex-start, center);
+      padding: 30px 25px;
+      &__logo {
         font-size: 16px;
+      }
+      &__bloc {
+        @include flex(row, space-between,center)
+      }
     }
-    &__bloc {
-        display: flex;
-        flex-direction: row;
-    }
-    }
+  }
 }

@@ -90,49 +90,51 @@ input {
   background-color: #353535;
   color: white;
   padding: 22px 25px;
+}
+.footer__container {
+  max-width: 1440px;
+  margin: auto;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 16px;
 }
-.footer__logo {
+.footer__container__logo {
   margin: 0;
   font-size: 27px;
   font-family: "Shrikhand", serif;
 }
-.footer__bloc {
+.footer__container__bloc {
   display: flex;
   flex-direction: column;
   gap: 7px;
 }
-.footer__bloc__nav {
+.footer__container__bloc__nav {
   display: flex;
   flex-direction: row;
   gap: 11px;
   align-items: center;
   font-weight: 500;
 }
-.footer__bloc__nav i {
+.footer__container__bloc__nav i {
   width: 11px;
   height: 13px;
 }
-.footer p {
+.footer__container p {
   margin: 5px 0;
 }
 
 @media (min-width: 1023.9px) {
-  .footer {
-    display: flex;
+  .footer__container {
     flex-direction: row-reverse;
     align-items: flex-end;
     padding: 30px 25px;
     align-items: center;
   }
-  .footer__logo {
+  .footer__container__logo {
     font-size: 16px;
   }
-  .footer__bloc {
-    display: flex;
+  .footer__container__bloc {
     flex-direction: row;
   }
 }

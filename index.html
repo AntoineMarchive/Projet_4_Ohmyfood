@@ -1,26 +1,24 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">  
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&family=Shrikhand&display=swap" rel="stylesheet">
-    <title>OhMyFood</title>
-    <!-- CSS -->
-    <link rel="stylesheet" href="assets/style/pages/home.css" />
-    <!-- Fontawesome -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-  </head>
 
-  <body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&family=Shrikhand&display=swap"
+    rel="stylesheet">
+  <title>OhMyFood</title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/style/pages/home.css" />
+  <!-- Fontawesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
   <div class="loader">
     <div class="loader-dots">
       <div class="loader-dot loader-dot__1"></div>
@@ -30,98 +28,99 @@
       <div class="loader__text">Chargement</div>
     </div>
   </div>
+  </div>
+  <header class="header">
+    <div class="header__firstcontainer">
+      <h1 class="header__firstcontainer__logo">Ohmyfood</h1>
     </div>
-    <header class="header">
-      <div class="header__firstcontainer">
-        <h1 class="header__firstcontainer__logo">Ohmyfood</h1>
+    <div class="header__container">
+      <form class="header__container__location">
+        <i class="fa-solid fa-location-dot"></i>
+        <input type="text" placeholder="Paris, Bellevile" />
+      </form>
+    </div>
+  </header>
+
+  <main class="main_container">
+    <section class="explore">
+      <h2 class="explore__title">Réservez le menu qui vous convient</h2>
+      <p>
+        Découvrez des restaurants d'exception, sélectionnés par nos soins.
+      </p>
+      <a href="#restaurants">
+        <button type="button" class="main_btn">Explorer nos restaurants</button>
+      </a>
+    </section>
+
+    <section class="function">
+      <h2 class="function__title">Fonctionnement</h2>
+      <div class="function__btn-container">
+        <button type="button" href="#" class="function-btn">
+          <p class="function__btn-container__number">1</p>
+          <i class="fa-solid fa-mobile-screen-button"></i>
+          <p>Choisissez un restaurant</p>
+        </button>
+        <button type="button" href="#" class="function-btn">
+          <p class="function__btn-container__number">2</p>
+          <i class="fa-solid fa-list-ul"></i>
+          <p>Composez votre menu</p>
+        </button>
+        <button type="button" href="#" class="function-btn">
+          <p class="function__btn-container__number">3</p>
+          <i class="fa-solid fa-store"></i>
+          <p>Dégustez au restaurant</p>
+        </button>
       </div>
-      <div class="header__container">
-        <form class="header__container__location">
-          <i class="fa-solid fa-location-dot"></i>
-          <input type="text" placeholder="Paris, Bellevile" />
-        </form>
-      </div>
-    </header>
+    </section>
 
-    <main class="main_container">
-      <section class="explore">
-        <h2 class="explore__title">Réservez le menu qui vous convient</h2>
-        <p>
-          Découvrez des restaurants d'exception, sélectionnés par nos soins.
-        </p>
-        <a href="#restaurants">
-          <button type="button" class="main_btn">Explorer nos restaurants</button>
-        </a>
-      </section>
-
-      <section class="function">
-        <h2 class="function__title">Fonctionnement</h2>
-        <div class="function__btn-container">
-          <button type="button" href="#" class="function-btn">
-            <p class="function__btn-container__number">1</p>
-            <i class="fa-solid fa-mobile-screen-button"></i>
-            <p>Choisissez un restaurant</p>
-          </button>
-          <button type="button" href="#" class="function-btn">
-            <p class="function__btn-container__number">2</p>
-            <i class="fa-solid fa-list-ul"></i>
-            <p>Composez votre menu</p>
-          </button>
-          <button type="button" href="#" class="function-btn">
-            <p class="function__btn-container__number">3</p>
-            <i class="fa-solid fa-store"></i>
-            <p>Dégustez au restaurant</p>
-          </button>
-        </div>
-      </section>
-
-      <section class="restaurants" id="restaurants">
-        <h2 class="restaurants__title">Restaurants</h2>
-        <div class="restaurants__cards">
-          <a href="La palette du goût.html">
-            <artcicle class="restaurants__cards__container">
-              <img
-                src="assets/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg"
-                alt="photo la palette du gout"
-              />
-              <div class="restaurants__cards__container-info">
-                <span>Nouveau</span>
-              </div>
-              <div class="restaurants__cards__container-content">
-                <div class="restaurants__cards__container-content-text">
-                  <h3>La palette du goût</h2>
+    <section class="restaurants" id="restaurants">
+      <h2 class="restaurants__title">Restaurants</h2>
+      <div class="restaurants__cards">
+        <a href="La palette du goût.html">
+          <artcicle class="restaurants__cards__container">
+            <img src="assets/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg"
+              alt="photo la palette du gout" />
+            <div class="restaurants__cards__container-info">
+              <span>Nouveau</span>
+            </div>
+            <div class="restaurants__cards__container-content">
+              <div class="restaurants__cards__container-content-text">
+                <h3>La palette du goût</h2>
                   <p>Ménilmontant</p>
-                </div>
-                <div class="restaurants__cards__container-content__heart-btn">
-                  <button type="button" class="heart-btn">
-                    <i class="fa-regular fa-heart"></i>
-                  </button>
-                </div>
               </div>
-            </artcicle>
-          </a>
-        </div>
-      </section>
-    </main>
+              <div class="restaurants__cards__container-content__heart-btn">
+                <button type="button" class="heart-btn">
+                  <i class="fa-regular fa-heart"></i>
+                </button>
+              </div>
+            </div>
+          </artcicle>
+        </a>
+      </div>
+    </section>
+  </main>
 
-    <footer class="footer">
-      <h1 class="footer__logo">Ohmyfood</h1>
-      <div class="footer__bloc">
-        <a class="footer__bloc__nav" href="#">
+  <footer class="footer">
+    <div class="footer__container">
+      <h2 class="footer__container__logo">Ohmyfood</h2>
+      <div class="footer__container__bloc">
+        <a class="footer__container__bloc__nav" href="#">
           <i class="fa-solid fa-utensils"></i>
           <p>Proposer un restaurant</p>
         </a>
-        <a class="footer__bloc__nav" href="#">
+        <a class="footer__container__bloc__nav" href="#">
           <i class="fa-solid fa-handshake-angle"></i>
           <p>Devenir partenaire</p>
         </a>
-        <a class="footer__bloc__nav--info" href="#">
+        <a class="footer__container__bloc__nav--info" href="#">
           <p>Mentions légales</p>
         </a>
-        <a class="footer__bloc__nav--info" href="mailto:avotreecoute@ohmyfood.fr">
+        <a class="footer__container__bloc__nav--info" href="mailto:avotreecoute@ohmyfood.fr">
           <p>Contact</p>
         </a>
       </div>
-    </footer>
-  </body>
+    </div>
+  </footer>
+</body>
+
 </html>
