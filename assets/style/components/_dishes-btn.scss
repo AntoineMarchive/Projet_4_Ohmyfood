@@ -1,33 +1,37 @@
 .page__restaurant__menu__card__dishes-btn {
-  position: relative;
   border-radius: 25px;
   border: none;
   padding: 15px;
   box-shadow: 0px 4.011px 15.043px 0px rgba(0, 0, 0, 0.1);
   background: white;
   display: flex;
-  
+
   &-container {
     display: flex;
     flex: 1;
+
     &__title {
       display: flex;
       flex-direction: column;
       gap: 5px;
+
       & h4 {
         font-size: 18px;
         font-weight: 500;
         margin: 0;
       }
+
       & p {
         margin: 0;
       }
     }
+
     &__price {
       display: flex;
       flex: 1;
       justify-content: flex-end;
       align-items: flex-end;
+
       & p {
         font-size: 15px;
         font-weight: 300;
@@ -35,22 +39,8 @@
       }
     }
   }
+
   &__check {
-    position: absolute;
-    box-sizing: border-box;
-    width: 15%;
-    height: 100%;
-    right: 0px;
-    top: 0px;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    background: $third-color;
-    border-top-right-radius: 25px;
-    border-bottom-right-radius: 25px;
-    opacity: 0;
-    &:hover {
-      opacity: 1;
-    }
   }
 }
