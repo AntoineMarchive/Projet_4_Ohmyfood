@@ -1,5 +1,6 @@
 @import "../utils/variables";
 @import "../utils/normalize";
+@import "../utils/mixins";
 
 @import "../layout/header";
 @import "../layout/footer";
@@ -59,7 +60,10 @@
 @media (min-width: 1023.9px) {
   .page__restaurant{
     &--img {
+      width: 100%;
+      height:auto;
       & img {
+        height: 300px;;
       }
     }
     background: white;
