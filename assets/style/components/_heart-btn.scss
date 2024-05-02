@@ -1,11 +1,73 @@
 .heart-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background: transparent;
+  & i {
+    padding: 0;
+    font-size: 26px;
+  }
+  &__beforeclic {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: none;
+    z-index: 1;
+    border: transparent;
     background: transparent;
-    & i {
-        padding: 0;
-        font-size: 26px;
+  }
+
+  &__afterclic {
+    border: transparent;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+    color: #ff79da;
+    opacity: 0;
+
+    &:hover {
+      animation-fill-mode: forwards;
+      animation-duration: 2s;
+      animation-name: animCoeur;
+
+      @keyframes animCoeur {
+        0% {
+          opacity: 0;
+        }
+        10% {
+          opacity: 0.1;
+        }
+        20% {
+          opacity: 0.2;
+        }
+        30% {
+          opacity: 0.3;
+        }
+        40% {
+          opacity: 0.4;
+        }
+        50% {
+          opacity: 0.5;
+        }
+        60% {
+          opacity: 0.6;
+        }
+        70% {
+          opacity: 0.7;
+        }
+        80% {
+          opacity: 0.8;
+        }
+        90% {
+          opacity: 0.9;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
     }
+  }
 }

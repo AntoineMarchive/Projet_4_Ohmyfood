@@ -263,12 +263,17 @@ input {
   border-radius: 0 25px 25px 0;
   width: 60px;
   margin-right: -60px;
-  transition: margin-right 0.9s ease;
+  transition: margin-right 0.5s ease;
 }
-.page__restaurant__menu__card__dishes-btn__check:hover {
+.page__restaurant__menu__card__dishes-btn__check:active {
   margin-right: 0;
 }
 
+@media (min-width: 1023.9px) {
+  .page__restaurant__menu__card__dishes-btn__check:hover {
+    margin-right: 0;
+  }
+}
 .page__restaurant__menu__card__title {
   box-sizing: border-box;
   border-bottom: solid 3px #99E2D0;
@@ -290,6 +295,65 @@ input {
 .heart-btn i {
   padding: 0;
   font-size: 26px;
+}
+.heart-btn__beforeclic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  border: transparent;
+  background: transparent;
+}
+.heart-btn__afterclic {
+  border: transparent;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 2;
+  color: #ff79da;
+  opacity: 0;
+}
+.heart-btn__afterclic:hover {
+  animation-fill-mode: forwards;
+  animation-duration: 2s;
+  animation-name: animCoeur;
+}
+@keyframes animCoeur {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 0.1;
+  }
+  20% {
+    opacity: 0.2;
+  }
+  30% {
+    opacity: 0.3;
+  }
+  40% {
+    opacity: 0.4;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  60% {
+    opacity: 0.6;
+  }
+  70% {
+    opacity: 0.7;
+  }
+  80% {
+    opacity: 0.8;
+  }
+  90% {
+    opacity: 0.9;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .page__restaurant {
