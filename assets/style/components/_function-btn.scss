@@ -28,7 +28,10 @@
     font-size: 19px;
     padding: 0;
     color: $seven-color;
-  }
+    &:hover {
+      color : $main-color;
+    }
+    }
   & p {
     font-size: 16px;
   }
