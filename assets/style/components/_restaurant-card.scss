@@ -18,9 +18,7 @@
       right: 20px;
       top: 20px;
       padding: 7px 9px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+      @include flex (row, center,center);
       background-color: $third-color;
       color: $four-color;
       box-sizing: border-box;

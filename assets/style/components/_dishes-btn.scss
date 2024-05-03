@@ -11,9 +11,8 @@
   text-overflow: ellipsis;
 
   &__container {
-    display: flex;
+    @include flex (row, space-between,center);
     padding: 15PX;
-    justify-content: space-between;
     width: 100%;
     white-space: nowrap;
     overflow: hidden;
@@ -59,9 +58,7 @@
   }
 
   &__check {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include flex (row, center,center);
     background: $third-color;
     border-radius: 0 25px 25px 0 ;
     width: 60px;

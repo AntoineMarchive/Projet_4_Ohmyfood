@@ -1,10 +1,8 @@
 .function-btn {
   background: $main-backgroundcolor;
-  display: flex;
+  @include flex (row, space-around,center);
   width: 100%;
   border: none;
-  justify-content: space-around;
-  align-items: center;
   border-radius: 25px;
   height: 72px;
   padding: 29px 38px;
