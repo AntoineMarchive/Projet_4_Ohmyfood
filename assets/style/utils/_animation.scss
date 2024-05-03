@@ -1,0 +1,37 @@
+/*** Elements des entrées ***/
+.page__restaurant__menu__card:nth-child(1) .page__restaurant__menu__card__dishes-btn {
+    animation: appear 2s ease forwards;
+    opacity: 0;
+}
+/*** Elements des plats ***/
+.page__restaurant__menu__card:nth-child(2) .page__restaurant__menu__card__dishes-btn {
+    animation: appear 4s ease forwards;
+    opacity: 0;
+}
+/*** Elements des desserts ***/
+.page__restaurant__menu__card:nth-child(3) .page__restaurant__menu__card__dishes-btn {
+  animation: appear 6s ease forwards;
+  opacity: 0;
+}
+/*** Elements des desserts ***/
+.page__restaurant__menu__card:nth-child(4) .page__restaurant__menu__card__dishes-btn {
+  animation: appear 6s ease forwards;
+  opacity: 0;
+}
+
+/*** Animation des éléments du menu ***/
+@keyframes appear {
+    0% {
+      opacity: 0;
+      transform: translateX(-20px);
+    }
+    50% {
+      opacity: 0,5;
+      transform: translate((-10px));
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
