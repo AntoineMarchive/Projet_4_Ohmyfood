@@ -15,6 +15,9 @@
     padding: 15PX;
     justify-content: space-between;
     width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 
     &__title {
       display: flex;
