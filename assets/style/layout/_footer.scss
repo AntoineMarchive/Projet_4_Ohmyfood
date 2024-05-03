@@ -1,7 +1,7 @@
 .footer {
   background-color: #353535;
   color: white;
-  padding: 22px 25px;
+  padding: 30px 25px;
   &__container {
     @include wrapper;
     @include flex (column, center, flex-start);
@@ -16,7 +16,7 @@
       flex-direction: column;
       gap: 7px;
       &__nav {
-        @include flex(row, center, center);
+        @include flex(row, flex-start, center);
         gap: 11px;
         font-weight: 500;
         & i {
@@ -34,12 +34,15 @@
   .footer {
     &__container {
         @include flex(row-reverse, flex-start, center);
-      padding: 30px 25px;
+        padding: 20px 20px 0 20px;
       &__logo {
+        align-items: end;
         font-size: 16px;
       }
       &__bloc {
-        @include flex(row, space-between, center)
+        @include flex(row, space-between, center);
+        padding: 0 60px;
+        gap: 20px;
       }
     }
   }
