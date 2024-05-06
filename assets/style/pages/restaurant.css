@@ -343,10 +343,6 @@ input {
   border: none;
   background: transparent;
 }
-.heart-btn i {
-  padding: 0;
-  font-size: 26px;
-}
 .heart-btn__beforeclic {
   display: flex;
   justify-content: center;
@@ -363,7 +359,6 @@ input {
   align-items: center;
   position: absolute;
   z-index: 2;
-  color: #ff79da;
   opacity: 0;
 }
 .heart-btn__afterclic:hover {

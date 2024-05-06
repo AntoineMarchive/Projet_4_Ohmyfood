@@ -286,10 +286,6 @@ input {
   border: none;
   background: transparent;
 }
-.heart-btn i {
-  padding: 0;
-  font-size: 26px;
-}
 .heart-btn__beforeclic {
   display: flex;
   justify-content: center;
@@ -306,7 +302,6 @@ input {
   align-items: center;
   position: absolute;
   z-index: 2;
-  color: #ff79da;
   opacity: 0;
 }
 .heart-btn__afterclic:hover {
@@ -350,22 +345,22 @@ input {
   }
 }
 
-.restaurants__cards__container {
+.restaurants__cards__card__container {
   position: relative;
   box-sizing: border-box;
   display: flex;
   flex: 1;
   flex-direction: column;
 }
-.restaurants__cards__container img {
+.restaurants__cards__card__container img {
   -o-object-fit: cover;
      object-fit: cover;
   width: 100%;
-  height: auto;
+  height: 231px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
-.restaurants__cards__container-info {
+.restaurants__cards__card__container-info {
   padding: 6px 9px;
   position: absolute;
   right: 20px;
@@ -382,7 +377,7 @@ input {
   height: 29px;
   border: none;
 }
-.restaurants__cards__container-content {
+.restaurants__cards__card__container-content {
   background-color: white;
   display: flex;
   justify-content: space-between;
@@ -390,23 +385,23 @@ input {
   border-bottom-right-radius: 25px;
   padding: 20px 12px 12px 12px;
 }
-.restaurants__cards__container-content-text {
+.restaurants__cards__card__container-content-text {
   display: flex;
   flex-direction: column;
   gap: 5px;
   padding: 0;
 }
-.restaurants__cards__container-content-text h3 {
+.restaurants__cards__card__container-content-text h3 {
   font-size: 18px;
   font-weight: 700;
   margin: 0;
 }
-.restaurants__cards__container-content-text p {
+.restaurants__cards__card__container-content-text p {
   font-size: 17px;
   font-weight: 300;
   margin: 0;
 }
-.restaurants__cards__container-content__heart-btn {
+.restaurants__cards__card__container-content__heart-btn {
   width: 22px;
   height: 21px;
   padding: 5px 25px;
@@ -483,6 +478,10 @@ input {
   flex-direction: column;
   gap: 18px;
   width: 100%;
+}
+.restaurants__cards__card {
+  display: flex;
+  flex-direction: column;
 }
 
 @media (min-width: 1023.9px) {
