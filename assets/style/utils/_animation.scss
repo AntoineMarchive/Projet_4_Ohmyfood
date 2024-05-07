@@ -5,17 +5,17 @@
 }
 /*** Elements des plats ***/
 .page__restaurant__menu__card:nth-child(2) .page__restaurant__menu__card__dishes-btn {
-    animation: appear 8s ease forwards;
+    animation: appear 4s ease forwards;
     opacity: 0;
 }
 /*** Elements des desserts ***/
 .page__restaurant__menu__card:nth-child(3) .page__restaurant__menu__card__dishes-btn {
-  animation: appear 14s ease forwards;
+  animation: appear 8s ease forwards;
   opacity: 0;
 }
 /*** Elements des desserts ***/
 .page__restaurant__menu__card:nth-child(4) .page__restaurant__menu__card__dishes-btn {
-  animation: appear 20s ease forwards;
+  animation: appear 12s ease forwards;
   opacity: 0;
 }
 

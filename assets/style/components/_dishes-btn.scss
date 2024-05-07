@@ -66,8 +66,8 @@
     @include flex(row, center, center);
     background: $third-color;
     border-radius: 0 25px 25px 0;
-    width: 60px;
-    margin-right: -60px;
+    width: 80px;
+    margin-right: -80px;
     transition: margin-right 0.8s ease;
     & i{
       background-color: white;
