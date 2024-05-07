@@ -1,5 +1,7 @@
 * {
   font-family: "Roboto", sans-serif;
+  font-style: normal;
+  line-height: normal;
 }
 
 a {
@@ -8,13 +10,31 @@ a {
 }
 
 p {
-  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 400;
+  padding: 0;
 }
 
 h2 {
   font-size: 24px;
+  font-weight: 700;
   padding: 0;
-  margin: 0;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 700;
+  padding: 0;
+}
+
+h4 {
+  font-size: 18px;
+  font-weight: 500;
+  padding: 0;
 }
 
 .shrikhand-regular {
@@ -104,7 +124,7 @@ input {
 }
 .footer__container__logo {
   margin: 0;
-  font-size: 27px;
+  font-size: 18px;
   font-family: "Shrikhand", serif;
 }
 .footer__container__bloc {
@@ -392,8 +412,6 @@ input {
   padding: 0;
 }
 .restaurants__cards__card__container-content-text h3 {
-  font-size: 18px;
-  font-weight: 700;
   margin: 0;
 }
 .restaurants__cards__card__container-content-text p {
@@ -418,11 +436,6 @@ input {
 }
 .explore__title {
   margin: 10px 0;
-  font-size: 26px;
-}
-.explore h2 {
-  font-size: 24px;
-  font-weight: 700;
 }
 .explore P {
   font-size: 18px;
@@ -439,8 +452,6 @@ input {
 .function__title {
   display: flex;
   align-items: center;
-  font-size: 24px;
-  margin: 0;
 }
 .function__btn-container {
   display: flex;
@@ -468,10 +479,6 @@ input {
   padding: 48px 18px;
   gap: 18px;
   width: auto;
-}
-.restaurants__title {
-  font-size: 24px;
-  margin: 0;
 }
 .restaurants__cards {
   display: flex;
