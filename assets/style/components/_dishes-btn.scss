@@ -7,15 +7,21 @@
   justify-content: space-between;
   height: 100%;
   width: 100%;
-
+  position: relative;
+  cursor: pointer;
+    &:active>&__check {
+      margin-right: 0;
+    }
 
   &__container {
+
     @include flex(row, space-between, center);
     padding: 15px;
     width: 100%;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    
 
     &__title {
       display: flex;
@@ -62,18 +68,14 @@
     border-radius: 0 25px 25px 0;
     width: 60px;
     margin-right: -60px;
-    transition: margin-right 0.5s ease;
-    &:hover {
-      margin-right: 0;
-    }
+    transition: margin-right 0.8s ease;
+    
   }
 }
 @media (min-width: 1023.9px) {
   .page__restaurant__menu__card__dishes-btn {
-    &__check {
-      &:hover {
+    &:hover>&__check {
         margin-right: 0;
-      }
     }
   }
 }

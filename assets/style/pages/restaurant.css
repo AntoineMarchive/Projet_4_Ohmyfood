@@ -280,6 +280,11 @@ input {
   justify-content: space-between;
   height: 100%;
   width: 100%;
+  position: relative;
+  cursor: pointer;
+}
+.page__restaurant__menu__card__dishes-btn:active > .page__restaurant__menu__card__dishes-btn__check {
+  margin-right: 0;
 }
 .page__restaurant__menu__card__dishes-btn__container {
   display: flex;
@@ -334,14 +339,11 @@ input {
   border-radius: 0 25px 25px 0;
   width: 60px;
   margin-right: -60px;
-  transition: margin-right 0.5s ease;
-}
-.page__restaurant__menu__card__dishes-btn__check:hover {
-  margin-right: 0;
+  transition: margin-right 0.8s ease;
 }
 
 @media (min-width: 1023.9px) {
-  .page__restaurant__menu__card__dishes-btn__check:hover {
+  .page__restaurant__menu__card__dishes-btn:hover > .page__restaurant__menu__card__dishes-btn__check {
     margin-right: 0;
   }
 }
