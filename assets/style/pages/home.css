@@ -73,7 +73,6 @@ input {
   box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
 }
 .header__firstcontainer__return {
-  z-index: index;
   position: absolute;
   left: 17px;
 }
@@ -105,7 +104,7 @@ input {
   font-weight: 500;
 }
 .header__container__Location input {
-  font-size: 16x;
+  font-size: 16px;
 }
 
 .footer {
@@ -262,7 +261,6 @@ input {
   box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
 }
 .function-btn .function__btn-container__number {
-  z-index: index;
   position: absolute;
   left: 20px;
   margin: 0;
