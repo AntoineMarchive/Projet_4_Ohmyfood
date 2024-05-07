@@ -1,27 +1,25 @@
 .heart-btn {
+  position: relative;
+  width: 40px;
+  height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
   border: none;
   background: transparent;
-  
+
   &__beforeclic {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 1;
-    border: transparent;
-    background: transparent;
+    position: absolute;
+    font-size: 22px;
   }
 
   &__afterclic {
+    font-size: 22px;
     border: transparent;
-    background: transparent;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background: -webkit-gradient(linear, left top, left bottom, from($second-color), to($main-color));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     position: absolute;
-    z-index: 2;
     opacity: 0;
 
     &:hover {

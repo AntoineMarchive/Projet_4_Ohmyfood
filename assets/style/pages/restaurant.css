@@ -365,6 +365,9 @@ input {
 }
 
 .heart-btn {
+  position: relative;
+  width: 40px;
+  height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -372,21 +375,16 @@ input {
   background: transparent;
 }
 .heart-btn__beforeclic {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 1;
-  border: transparent;
-  background: transparent;
+  position: absolute;
+  font-size: 22px;
 }
 .heart-btn__afterclic {
+  font-size: 22px;
   border: transparent;
-  background: transparent;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background: -webkit-gradient(linear, left top, left bottom, from(#FF79DA), to(#9356DC));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   position: absolute;
-  z-index: 2;
   opacity: 0;
 }
 .heart-btn__afterclic:hover {
@@ -491,7 +489,7 @@ input {
   }
   .page__restaurant__menu {
     margin: 0 192px;
-    padding: 40px 210px;
+    padding: 40px 5%;
   }
   .page__restaurant__menu__title-container {
     display: flex;
