@@ -315,6 +315,7 @@ input {
   font-size: 22px;
   border: transparent;
   background: -webkit-gradient(linear, left top, left bottom, from(#FF79DA), to(#9356DC));
+  background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   position: absolute;
