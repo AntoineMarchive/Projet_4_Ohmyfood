@@ -443,7 +443,7 @@ input {
   width: 100%;
 }
 .page__restaurant__menu {
-  transform: translateY(-25px);
+  margin-top: -25px;
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
   display: flex;
@@ -487,7 +487,7 @@ input {
     height: 300px;
   }
   .page__restaurant__menu {
-    margin: 0 192px;
+    margin: -25px 192px 0 192px;
     padding: 40px 5%;
   }
   .page__restaurant__menu__title-container {

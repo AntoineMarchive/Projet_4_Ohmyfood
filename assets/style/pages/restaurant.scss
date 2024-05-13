@@ -26,7 +26,7 @@
     }
   }
   &__menu {
-    transform: translateY(-25px);
+    margin-top: -25px;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     display: flex;
@@ -65,7 +65,7 @@
     }
     background: white;
     &__menu {
-      margin: 0 192px;
+      margin: -25px 192px 0 192px;
       padding: 40px 5%;
       &__title-container {
         display: flex;
