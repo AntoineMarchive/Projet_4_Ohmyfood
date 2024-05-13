@@ -455,9 +455,10 @@ input {
 .page__restaurant__menu__title-container {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 0;
+  gap: 20px;
 }
 .page__restaurant__menu__title-container h2 {
   font-family: "Shrikhand", serif;
@@ -489,10 +490,5 @@ input {
   .page__restaurant__menu {
     margin: -25px 192px 0 192px;
     padding: 40px 5%;
-  }
-  .page__restaurant__menu__title-container {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
   }
 }/*# sourceMappingURL=restaurant.css.map */
