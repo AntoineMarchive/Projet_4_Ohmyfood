@@ -50,7 +50,7 @@
 
 @media (min-width: 1023.9px) {
   .function {
-    padding: 50px 180px;
+    padding: 50px 15%;
     text-align: start;
 
     &__btn-container {
@@ -81,7 +81,7 @@
 }
 @media (min-width: 1023.9px) {
   .restaurants {
-    padding: 30px 180px;
+    padding: 30px 15%;
     &__cards {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
