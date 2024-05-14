@@ -202,7 +202,7 @@ input {
   margin: 0;
   border-radius: 25px;
   background-color: #FF79DA;
-  animation: three 1s infinite ease-in-out both;
+  animation: action 1s infinite ease-in-out both;
   animation-delay: 0ms;
 }
 .loader-dots .loader-dot__2 {
@@ -215,7 +215,7 @@ input {
   animation-delay: 450ms;
 }
 
-@keyframes three {
+@keyframes action {
   0%, 80%, 100% {
     transform: scale(0);
   }
