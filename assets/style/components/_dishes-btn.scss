@@ -9,7 +9,7 @@
   width: 100%;
   overflow: hidden;
   cursor: pointer;
-    &:active>&__check {
+    &:hover>&__check {
       margin-right: 0;
     }
 

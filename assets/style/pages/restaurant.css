@@ -280,7 +280,7 @@ input {
   overflow: hidden;
   cursor: pointer;
 }
-.page__restaurant__menu__card__dishes-btn:active > .page__restaurant__menu__card__dishes-btn__check {
+.page__restaurant__menu__card__dishes-btn:hover > .page__restaurant__menu__card__dishes-btn__check {
   margin-right: 0;
 }
 .page__restaurant__menu__card__dishes-btn__container {
