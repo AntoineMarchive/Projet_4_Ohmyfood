@@ -37,9 +37,8 @@
     
 
     &__title-container {
-      @include flex(row, center, center);
+      @include flex(row, space-between, center);
         padding: 0;
-        gap: 20px;
         & h2 {
             font-family: "Shrikhand", serif;
             font-size: 28px;
@@ -68,6 +67,10 @@
     &__menu {
       margin: -25px 192px 0 192px;
       padding: 40px 5%;
+      &__title-container {
+        @include flex(row, center, center);
+        gap: 20px;
+      }
       
     }
   }

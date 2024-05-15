@@ -45,6 +45,7 @@ h4 {
 }
 
 .main-container {
+  max-width: 1440px;
   width: 100%;
   padding: 0;
   box-sizing: border-box;
@@ -97,6 +98,8 @@ input {
   }
 }
 .header {
+  max-width: 1440px;
+  margin: auto;
   color: black;
   display: flex;
   flex-direction: column;
@@ -455,10 +458,9 @@ input {
 .page__restaurant__menu__title-container {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   padding: 0;
-  gap: 20px;
 }
 .page__restaurant__menu__title-container h2 {
   font-family: "Shrikhand", serif;
@@ -490,5 +492,12 @@ input {
   .page__restaurant__menu {
     margin: -25px 192px 0 192px;
     padding: 40px 5%;
+  }
+  .page__restaurant__menu__title-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
   }
 }/*# sourceMappingURL=restaurant.css.map */
