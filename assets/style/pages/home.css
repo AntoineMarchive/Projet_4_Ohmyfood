@@ -62,8 +62,6 @@ input {
 }
 
 .header {
-  max-width: 1440px;
-  margin: auto;
   color: black;
   display: flex;
   flex-direction: column;
